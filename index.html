@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body class="relative bg-[#FAFAFA]">
+    <div class="contain md:px-12">
+        <div class="nav text-[#828282] px-6 py-2 md:px-0 md:py-0 flex justify-between items-center md:items-baseline text-3xl font-bold">
+            <div class="flex gap-10 items-center  text-sm">
+                <h1 class="text-4xl text-black">snap</h1>
+                <div class="innernav items-baseline gap-8 hidden md:flex">
+                    <div class="mt-3"> 
+                        <p id="FeaturesBig" class="hover:cursor-pointer min-w-24">Features <span  class="ms-3"><i class="fa-solid fa-angle-up up"></i></span></p>
+                        <div id="fblist" class="px-4 py-1 rounded-lg flex-col shadow-xl absolute hidden">
+                            <div class="flex gap-5 items-center mt-4">
+                                <i class="fa-solid fa-calendar-days text-purple-700"></i>
+                                <p>Todo List</p>
+                            </div>
+                            <div class="flex gap-5 items-center mt-4">
+                                <i class="fa-solid fa-calendar-check text-blue-400"></i>
+                                <p>Calender</p>
+                            </div>
+                            <div class="flex gap-5 items-center mt-4">
+                                <i class="fa-regular fa-bell text-yellow-400"></i>
+                                <p>Reminder</p>
+                            </div>
+                            <div class="flex gap-5 items-center mt-4">
+                                <i class="fa-solid fa-clock text-purple-900"></i>
+                               <p>Planning</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div> 
+                        <p id="Companybig" class="hover:cursor-pointer min-w-24">Company <span  class="ms-3"><i class="fa-solid fa-angle-up up2"></i></span></p>
+                        <div id="cblist" class="p-4 absolute flex-col gap-2 shadow-xl rounded-lg ms-2 mt-1 hidden">
+                            <div class="flex gap-5 items-center mt-4">
+                                <p>Hestory</p>
+                            </div>
+                            <div class="flex gap-5 items-center mt-4">
+                                <p>Our Team</p>
+                            </div>
+                            <div class="flex gap-5 items-center mt-4">
+                                <p>Blog</p>
+                            </div>
+                         
+                        </div>
+                    </div> 
+                    <div> 
+                        <p class="hover:cursor-pointer">Career </p>
+                        
+                    </div>
+                    <div > 
+                        <p class="hover:cursor-pointer">About</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars md:hidden bar"></i>
+            <div class="p-5  gap-4 text-sm w-[20rem] justify-center items-baseline hidden md:flex">
+                <button class="w-full border border-[#56565600] text-[#565656] hover:border hover:border-black rounded-xl p-2">Login</button>
+                <button class="w-full text-[#565656] hover:border border border-[#56565600] hover:border-black rounded-xl p-2 mt-3">Register</button>
+            </div>
+        </div>
+        <div class="md:flex md:flex-row-reverse md:justify-between xl:px-[6rem] lg:pt-[2rem]">
+            <div class="w-full flex justify-end mt-9 md:mt-0 "> 
+              <img class="md:hidden w-full max-h-[20rem]" src="./images/image-hero-mobile.png" alt="">
+              <img class="hidden md:block md:min-h-[30rem] sm:mt-20 md:mt-8 lg:mt-0 lg:me-10 md:h-[25rem] lg:h-[35rem] lg:max-w-[28rem] " src="./images/image-hero-desktop.png" alt="">
+            </div>
+            <div class="md:w-2/5 lg:pt-">
+              <div class="flex flex-col md:items-start justify-center items-center  md:p-4 mt-6 md:mt-20">
+                <h1 class="font-bold text-[30px] md:w-[25rem] lg:w-[32rem] md:text-[50px] lg:text-[65px] flex gap-3 md:flex-col ">
+                   <p class="lg:leading-[20px] md:leading-[20px]">Make </p>
+                   <span class="w-full">remote work</span>
+                </h1>
+                <div class="flex flex-col justify-center gap-6 items-center md:block">
+                <p class="text-center text-[#828282] md:text-start text-xl md:text-2xl md:w-[100%] font-semibold p-3">
+                  Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+                </p>
+                <button class="bg-black font-semibold md:mt-8 text-white p-3 rounded-2xl w-[8rem] hover:cursor-pointer hover:bg-white hover:text-black hover:border hover:border-black">
+                  Learn more
+                </button>
+              </div>
+              <div class="flex justify-center items-center md:mt-[60px] mt-2 gap-6 p-4">
+                <img class="w-1/5" src="./images/client-audiophile.svg" alt="">
+                <img class="w-1/5" src="./images/client-maker.svg" alt="">
+                <img class="w-1/5" src="./images/client-meet.svg" alt="">
+                <img class="w-1/4" src="./images/client-databiz.svg" alt="">
+              </div>
+            </div>
+          </div>
+          
+    </div>
+    <div class="bg-[#000000a8] w-full h-screen fixed top-0  hidden flex-col text-[#828282] font-bold side  items-end ">
+        <div class="w-[60%] h-full flex flex-col bg-white p-3 gap-4">
+            <div class="flex justify-end text-4xl"><i class="fa-solid fa-xmark xx"></i></div>
+            <div class="p-4 mt-3">
+                <div class="mt-3"> 
+                    <p id="FeaturesSmall">Features <span class="ms-3"><i class="fa-solid fa-angle-up up mb-4"></i></span></p>
+                    <div id="fslist" class="p-3 flex flex-col gap-4">
+                        <div class="flex gap-5 items-center">
+                            <i class="fa-solid fa-calendar-days text-purple-700"></i>
+                            <p>Todo List</p>
+                        </div>
+                        <div class="flex gap-5 items-center">
+                            <i class="fa-solid fa-calendar-check text-blue-400"></i>
+                            <p>Calender</p>
+                        </div>
+                        <div class="flex gap-5 items-center">
+                            <i class="fa-regular fa-bell text-yellow-400"></i>
+                            <p>Reminder</p>
+                        </div>
+                        <div class="flex gap-5 items-center">
+                            <i class="fa-solid fa-clock text-purple-900"></i>
+                           <p>Planning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=""> 
+                    <p id="CompanySmall">Company <span class="ms-3"><i class="fa-solid fa-angle-up up2"></i></span></p>
+                    <div id="cslist" class="p-3 flex flex-col gap-2 ">
+                        <div class="flex gap-5 items-center">
+                            <p>Hestory</p>
+                        </div>
+                        <div class="flex gap-5 items-center">
+                            <p>Our Team</p>
+                        </div>
+                        <div class="flex gap-5 items-center mt-4">
+                            <p>Blog</p>
+                        </div>
+                     
+                    </div>
+                <div class="mt-4"> 
+                    <p>Career </p>
+                    
+                </div>
+                <div class="mt-4"> 
+                    <p>About</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <button class="w-full text-[#565656] border border-[#565656] rounded-xl p-2 hover:bg-[#565656] hover:text-white">Login</button>
+            <button class="w-full text-[#565656] border border-[#565656] rounded-xl p-2 hover:bg-[#565656] hover:text-white mt-3">Register</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="./js.js"></script>
+</body>
+</html>
